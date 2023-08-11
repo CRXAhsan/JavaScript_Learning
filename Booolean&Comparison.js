@@ -44,3 +44,23 @@ age = 31;
 let drink = age >= 5 ? "Coffee" : "Milk";
 
 console.log(`Your age is ${age}, So drink ${drink}.`);
+
+// Using Nested-If COnditions
+
+// prompt() func use for taking input from browser through user and it by default store value in string
+let winningNumber = 19;
+let UserGuess = +prompt("Guess A Number");
+
+console.log(UserGuess);
+
+if(UserGuess === 19){
+    console.log("correct Guess...");
+}
+else{
+    if(UserGuess < winningNumber){
+        console.log("Too Low Number...");
+    }
+    else if(UserGuess > winningNumber){
+        console.log("Too High Number...");
+    }
+}
