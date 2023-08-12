@@ -71,3 +71,34 @@ console.log(fruits);
 // console.log(`Value of array1 is ${array1}`);
 // console.log(`Value of array2 is ${array2}`);
 
+// How to Clone or Make a copy of array 
+
+// 1. method repetation of code
+// let array1 = ["item1" , "item2" ];
+// let array2 = ["item1" , "item2" ];
+
+// 2. method is using slice function and give index to it
+// let array1 = ["item1" , "item2" ];
+// let array2 = array1.slice(0);
+
+// 3. method is using concat fun and give the array name to be copied
+// let array1 = ["item1" , "item2" ];
+// let array2 = [].concat(array1);
+
+// 4. method is spread operator means write 3 dots before writing the name of array to be copied
+//let array1 = ["item1" , "item2" ];
+//let array2 = [...array1];
+
+console.log("Clone an Array or make a copy of it...");
+
+let array1 = ["item1" , "item2" ];
+let array2 = array1.slice(0);
+
+array1.push("item3");
+console.log(array1 === array2);
+console.log(`Array 1 elements are: `,array1);
+console.log(`Array 2 elements are: `,array2);
+
+
+
+
