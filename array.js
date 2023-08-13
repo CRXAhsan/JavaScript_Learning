@@ -98,7 +98,3 @@ array1.push("item3");
 console.log(array1 === array2);
 console.log(`Array 1 elements are: `,array1);
 console.log(`Array 2 elements are: `,array2);
-
-
-
-
